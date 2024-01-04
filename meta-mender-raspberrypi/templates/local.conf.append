@@ -12,3 +12,7 @@ MENDER_FEATURES_ENABLE:append = " mender-uboot mender-image-sd"
 MENDER_FEATURES_DISABLE:append = " mender-grub mender-image-uefi"
 
 ENABLE_UART = "1"
+
+PREFERRED_VERSION_linux-raspberrypi:raspberrypi5 = "6.1.%"
+PREFERRED_VERSION_u-boot:rpi = "2022.01"
+PREFERRED_VERSION_u-boot:raspberrypi5 = "2023.10"
